@@ -1,0 +1,26 @@
+[project]
+name = "rector-contract"
+authors = []
+description = ""
+telemetry = true
+requirements = []
+[contracts.decentralized-id]
+path = "contracts/decentralized-id.clar"
+depends_on = []
+
+[contracts.token-reward]
+path = "contracts/token-reward.clar"
+depends_on = []
+
+[repl]
+costs_version = 2
+parser_version = 2
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
