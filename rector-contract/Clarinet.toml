@@ -8,6 +8,14 @@ requirements = []
 path = "contracts/decentralized-id.clar"
 depends_on = []
 
+[contracts.match]
+path = "contracts/match.clar"
+depends_on = []
+
+[contracts.privacy-preserving]
+path = "contracts/privacy-preserving.clar"
+depends_on = []
+
 [contracts.token-reward]
 path = "contracts/token-reward.clar"
 depends_on = []
